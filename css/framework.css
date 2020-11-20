@@ -25,10 +25,19 @@
 
 .debug .row .mega{
   width: 100%;
-  height: 600px;
+  height: 500px;
   background-color: pink;
 }
 
+.debug .row .cont{
+  height: 500px;
+  background-color: green;
+}
+
+.debug .row .foto{
+  height: 400px;
+  background-color: purple;
+}
 /* framework */
 
 *{
