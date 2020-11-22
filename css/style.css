@@ -1,1 +1,251 @@
+/* GENERAL */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size:18px;
+}
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header */
+.header-top {
+  height: 80px;
+  line-height: 80px;
+}
+
+ul.navbar-menu li,
+ul.navbar-language li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+ul.navbar-menu li a,
+ul.navbar-language li a {
+  color: #343434;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.header-top .logo {
+  vertical-align: middle;
+}
+
+ul.navbar-language :not(li:last-child) a {
+  border-right: 2px solid black;
+  padding-right: 10px;
+}
+
+/* jumbo */
+.jumbotron {
+  background-image: url('../img/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  position: relative;
+}
+
+.jumbotron h1 {
+  font-size: 32px;
+}
+
+.jumbotron p {
+  margin: 10px 0;
+}
+
+.jumbotron .testo {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  width: 100%;
+}
+
+@media screen and (max-width: 992px){
+  .jumbo h1 {
+    font-size: 26px;
+  }
+}
+
+#helbiz .row{
+  text-align: center;
+  height: 100%;
+
+}
+
+#helbiz .row .text1{
+  height: 30%;
+  padding-top: 25px;
+}
+
+#helbiz .row h3{
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#helbiz .row .text1 p{
+  font-size: 25px;
+  padding: 15px;
+}
+
+#helbiz .row .text1 a{
+  font-size: 25px;
+}
+
+#helbiz .row img{
+  height: 400px;
+}
+
+
+#works{
+  background-image: url('../img/index-banner.1f6fd0a.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+}
+
+#works .container .text2{
+  position: relative;
+}
+
+#works .container .text2 .row div{
+  padding-top: 450px;
+}
+
+#works .container .text2 img{
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+#smart .container{
+  background-image: url('../img/scooter.f0a0397.jpg');
+  background-size: cover;
+  height: 500px;
+  margin-top: 50px;
+}
+
+#smart .row div{
+  text-align: center;
+}
+
+#smart .row .text3 h3{
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+#smart .row .text3 p{
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+#smart .row .text3 a{
+  font-size: 20px;
+  color: white;
+}
+
+.text3{
+  padding: 150px 0;
+  color: white;
+}
+
+#app .row{
+  padding: 50px 0;
+}
+
+#app .row div:first-of-type{
+  background-image: url('../img/wp.jpg');
+  width: 48%;
+  height: 500px;
+  text-align: center;
+  position: relative;
+  color: white;
+  padding: 15px 0;
+}
+
+#app .row h3{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 30px 0 15px;
+}
+
+#app .row p{
+  font-size: 20px;
+  padding-bottom: 18px;
+}
+
+#app .row a{
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#app .row img{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#app .row div:last-of-type{
+  background-image: url('../img/city.7c8c928.jpg');
+  background-size: cover;
+  width: 48%;
+  height: 500px;
+  float: right;
+  text-align: center;
+  color: white;
+  padding: 25px 10px;
+}
+
+#app .row h4{
+  font-size: 40px;
+  font-weight: bold;
+  padding: 30px 0 15px;
+}
+
+
+#helbizfamily{
+  background-image: url('../img/collage.jpg');
+  background-size: cover;
+  margin-bottom: 25px;
+}
+
+#helbizfamily .container{
+  height: 400px;
+  position: relative;
+  text-align: center;
+}
+
+.text4{
+  background-color: white;
+  height: 200px;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 50px 0;
+}
+
+.text4 h4{
+  font-size: 40px;
+
+}
+
+.text4 span i{
+  font-size: 35px;
+  padding: 0 25px;
+}
